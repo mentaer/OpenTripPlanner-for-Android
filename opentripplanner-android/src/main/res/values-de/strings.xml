@@ -47,7 +47,7 @@
                 <string name="text_box_dialog_location_type_map_point">Ort in der Karte</string>
 
             <!-- Virtual keyboard "done" button label -->
-            <!--<string name="text_box_virtual_keyboard_done_label">GO!</string>-->
+            <string name="text_box_virtual_keyboard_done_label">Fertig!</string>
 
         <!-- Start/End markers -->
         <string name="map_markers_start_marker_title">Start</string>
@@ -68,18 +68,18 @@
                 <string name="map_markers_connector_before_destination">nach</string>
 
                 <!-- Real time -->
-                <!--<string name="map_markers_warning_live_udpates">Live updates</string>-->
-                <!--<string name="map_markers_warning_live_upates_on_time">On time</string>-->
-                <!--<string name="map_markers_warning_live_upates_early_arrival">early</string>-->
-                <!--<string name="map_markers_warning_live_upates_late_arrival">late</string>-->
+                <string name="map_markers_warning_live_udpates">Echtzeit Aktualisierung</string>
+                <string name="map_markers_warning_live_upates_on_time">planmässig</string>
+                <string name="map_markers_warning_live_upates_early_arrival">vorzeitig</string>
+                <string name="map_markers_warning_live_upates_late_arrival">verspätet</string>
 
         <!-- Bike rental stations map markers -->
 
             <!-- Info pop-ups -->
 
                 <!-- Availability info -->
-                <!--<string name="map_markers_bike_rental_available_spaces">Slots:</string>-->
-                <!--<string name="map_markers_bike_rental_available_bikes">Bikes:</string>-->
+                <string name="map_markers_bike_rental_available_spaces">Stellplätze:</string>
+                <string name="map_markers_bike_rental_available_bikes">Fahrräder:</string>
 
 
         <!-- Toast messages -->
@@ -93,8 +93,8 @@
 
                 <!-- Used alone -->
                 <string name="toast_metadata_request_successful">Verkehrsverbindungen heruntergeladen</string>
-                <!--<string name="toast_server_checker_successful">OK: Region is working</string>-->
-                <!--<string name="toast_bike_rental_load_request_successful">Bike rental stations downloaded</string>-->
+                <string name="toast_server_checker_successful">OK: Regionaleinstellung konnten geladen werden</string>
+                <string name="toast_bike_rental_load_request_successful">Fahrradleihstationen wurden geladen</string>
 
                 <!-- Used together: toast_server_selector_detected + "server name" + toast_server_selector_server_change_info -->
                 <string name="toast_server_selector_detected">Daten gefunden.</string>
@@ -110,7 +110,7 @@
                     <string name="toast_server_selector_refresh_server_list_error">Liste der Regionen konnte nicht geladen werden.</string>
 
                     <!-- Obtaining bike rental list -->
-                    <!--<string name="toast_bike_rental_load_request_error">Couldn\'t get bike rental stations</string>-->
+                    <string name="toast_bike_rental_load_request_error">Fehler: Fahrradleihstationen konnten nicht geladen werden!</string>
 
                     <!-- Contacting server -->
                     <string name="toast_no_server_selected_error">Keine Region bzw. kein Regionalserver ausgewählt</string>
@@ -118,7 +118,7 @@
                     <string name="toast_server_checker_info_error">Achtung: Regionaldaten sind nicht verfügbar!</string>
 
                         <!-- Contacting user's region server -->
-                        <!--<string name="toast_server_checker_error_unreachable_detected_server">Your region server is not working. Please try again later.</string>-->
+                        <string name="toast_server_checker_error_unreachable_detected_server">Server mit Regionaldaten scheint nicht zu funktionieren. Bitte versuchen sie es später erneut!</string>
 
                     <!-- Editing custom server URL -->
                     <string name="toast_server_checker_error_bad_url">URL für benutzerdefinierte Region funktioniert nicht.</string>
@@ -127,7 +127,7 @@
                     <string name="toast_tripplanner_current_location_error">Momentaner Aufenthaltsort ist nicht bestimmbar</string>
 
                     <!-- Obtaining real time updates -->
-                    <!--<string name="toast_realtime_updates_fail">Realtime updates not available for this trip, times might be outdated</string>-->
+                    <string name="toast_realtime_updates_fail">Echtzeit-Aktualisierung sind für diese Strecke nicht verfügbar, die angegebenen Zeiten können inkorrekt sein.</string>-->
 
 
         <!-- Dialogs -->
